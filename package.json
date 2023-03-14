@@ -1,0 +1,32 @@
+{
+  "name": "react-three-multi-controls",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.57.3",
+    "@react-three/fiber": "^8.12.0",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.150.1",
+    "three-stdlib": "^2.21.8"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.26.1",
+    "@types/node": "^18.7.15",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/three": "^0.149.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "typescript": "^4.8.2",
+    "vite": "^4.1.4"
+  }
+}
